@@ -116,8 +116,13 @@ export default {
 
 <style>
 
-template, span, button {
+template, span {
     margin-left: 30px;
+}
+
+button {
+  margin-left: 30px;
+
 }
 
 .toggle-complete {
@@ -134,13 +139,17 @@ md-field {
 
 li {
     list-style-type: none;
+    margin-bottom: 20px;
 }
 
-/* .todos {
-    display: block;
-    color: red;
+.todo-list {
+    width: 100%;
 }
-*/
+
+.todo-list button {
+  margin-right: 20px;
+}
+
 .editing {
    color: blue;
 }
